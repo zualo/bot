@@ -4,7 +4,7 @@ This bot is currently just a testing bot for learning, feel free to use and/or m
 
 ## Setup
 
-1. Download `main.py`
+1. Download/clone repository
 2. Create a new folder
     - Place main.py inside of new folder
     - Create a new text document in the folder
