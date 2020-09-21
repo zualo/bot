@@ -43,7 +43,7 @@ class General(commands.Cog):
         await ctx.send(embed=embed)
 
     @info.error
-    async def info(self, ctx, error):
+    async def info_error(self, ctx, error):
         if isinstance(error, commands.BadArgument):
             await ctx.send('Please provide a valid user.')
             
