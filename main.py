@@ -46,6 +46,10 @@ class General(commands.Cog):
     async def info(self, ctx, error):
         if isinstance(error, commands.BadArgument):
             await ctx.send('Please provide a valid user.')
+            
+    @commands.command()
+    async def ping(self, ctx):
+        await ctx.send(f'Pong! {int(bot.latency)}ms')
 
 
 class Moderation(commands.Cog):
